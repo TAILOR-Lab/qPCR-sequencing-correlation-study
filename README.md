@@ -12,7 +12,7 @@ This repository contains the code, data, and analysis pipelines for the study ti
 
 **Link to Manuscript**: <'TBD'>
 
-**Link to Preprint**: <'TBD'>
+**Link to Preprint**: [Four Years of Continuous Weekly Wastewater Analysis Reveals Sequencing as a Robust Alternative to PCR for Respiratory Virome Surveillance](https://www.medrxiv.org/content/10.64898/2026.10.13.26364774v1)
 
 This codebase is under active development and may change over time.
 
@@ -30,7 +30,7 @@ qPCR-sequencing-correlation-study/
 └── README.md
 ```
 
-# 1. Method Detection vs. Target Virus
+# 1. Method detection rates vs. target virus
 Folder: method_detection_vs_target_virus
 
 Code used for the visualization of method positivity rate with target respiratory virus.
@@ -40,7 +40,7 @@ Figure generated corresponds to Figure_2 of the manuscript.
 Outputs:
     - .png and .svg chart
 
-# 2. Time-series charts
+# 2. Time-series charts of qPCR, sequencing and clinical outcomes per virus
 Folder: time_series_charts
 
 Code used to generate time-series charts highlighting the presence of viral sequencing reads and qPCR copies/ml of each respiratory virus in Texas over 4 years of sampling.
@@ -51,7 +51,7 @@ Figures generated correspond to Figure 4 and Supp Figure 2 in the manuscript.
 Outputs: 
     - .png and .svg time-series plots showcasing sequencing RPKMF and qPCR copies/ml along with clinical ED rates per virus.
 
-# 3. qPCR_positivity vs genome_bin_charts
+# 3. qPCR positivity rate vs. genomic sequencing breadth
 Folder: qPCR_positivity_vs_genome_bin_charts
 
 Code used to generate bar charts of qPCR positivity rate vs genomic span bin. Lander-Waterman assumptions were used to measure the genomic breadth of sequenced reads. 
@@ -61,7 +61,7 @@ Figures generated correspond to Figure 5 in the manuscript.
 Outputs: 
     - .png and .svg bar charts showcasing qPCR positivity among sequencing positive samples vs genomic bin size
 
-# 4. Identifying which method detected target virus sooner.
+# 4. Identifying which method detected target virus first during start of respiratory illness season
 Folder: method_detected_sooner_charts
 
 Code used to generate time-series plot of monthly sequencing and monthly qPCR positivity rates per virus. Dumbbell plots were overlaid beneath in Inkscape, and correlation scatter plots of monthly qPCR rate vs monthly sequencing rate were added.
