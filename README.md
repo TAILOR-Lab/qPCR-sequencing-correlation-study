@@ -56,7 +56,7 @@ Folder: ***qPCR_positivity_vs_genome_bin_charts***
 
 Code used to generate bar charts of qPCR positivity rate vs genomic span bin. Lander-Waterman assumptions were used to measure the genomic breadth of sequenced reads.\ 
 Logistic regression curve was fitted per virus and Odds Ratio was calculated per virus.\
-Figures generated correspond to Figure 5 in the manuscript.
+Figures generated correspond to Figure 5 and Supp Figure 3 in the manuscript.
 
 Outputs:\
     - .png and .svg bar charts showcasing qPCR positivity among sequencing positive samples vs genomic bin size
