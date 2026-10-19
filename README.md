@@ -27,7 +27,6 @@ qPCR-sequencing-correlation-study/
 ├── qPCR_positivity_vs_genome_bin_charts/
 ├── method_detected_sooner_charts/
 ├── qPCR_vs_sequencing_scatter_charts/
-├── sample_collection_over_time_per_site/
 ├── supplementary_tables/
 └── README.md
 ```
