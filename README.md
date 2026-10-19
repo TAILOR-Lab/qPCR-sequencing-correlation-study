@@ -6,7 +6,7 @@ This repository contains the code, data, and analysis pipelines for the study ti
 
 **Authors**: Harihara Prakash, Vasanthi Avadhanula, Michael J. Tisza, Juwan Cormier, Matthew C. Ross, Ryan K. Perez, James D. Chang, Camille R. Mazurek, Jennifer Deegan, Joseph F. Petrosino, Pedro A. Piedra, Justin R. Clark, Eric Boerwinkle, Anthony W. Maresso
 
-**Author for Correspondence**: Dr. Justin R. Clark
+**Author for Correspondence**: Dr. Justin R. Clark ***Justin.Clark@bcm.edu***
 
 **Status**: In Review 
 
@@ -14,7 +14,7 @@ This repository contains the code, data, and analysis pipelines for the study ti
 
 **Link to Preprint**: [Four Years of Continuous Weekly Wastewater Analysis Reveals Sequencing as a Robust Alternative to PCR for Respiratory Virome Surveillance](https://www.medrxiv.org/content/10.64898/2026.10.13.26364774v1)
 
-This codebase is under active development and may change over time.
+This codebase is under active development and may change over time.  **Please contact the authors via email for data access.**
 
 In this study, we develop a comparative framework between qPCR and sequencing of 5 known respiratory viruses in wastewater samples collected over 4 years of sampling across Texas. We analyzed samples from over 16 cities and 40 sites across Texas, and assessed the correlation between qPCR abundances with hybrid-capture sequencing abundances, along with statewide clinical cases.
 
@@ -95,7 +95,7 @@ If using this codebase, please cite:
 Prakash, H et al. Four Years of Continuous Weekly Wastewater Analysis Reveals Sequencing as a Robust Alternative to PCR for Respiratory Virome Surveillance
 
 # Contact  
-**Please contact the authors via email for data access.**
+
 Authors: Justin R. Clark, Harihara Prakash   
 Lab: TAILΦR Labs, Baylor College of Medicine
 
