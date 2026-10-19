@@ -21,16 +21,27 @@ In this study, we develop a comparative framework between qPCR and sequencing of
 # Repository Structure
 ```
 qPCR-sequencing-correlation-study/
+├── sample_collection_over_time_per_site/
 ├── method_detection_vs_target_virus/
 ├── time_series_charts/
 ├── qPCR_positivity_vs_genome_bin_charts/
 ├── method_detected_sooner_charts/
 ├── qPCR_vs_sequencing_scatter_charts/
+├── sample_collection_over_time_per_site/
 ├── supplementary_tables/
 └── README.md
 ```
 
-# 1. Method detection rates vs. target virus
+# 1. Sample collection over 4 years of sampling
+Folder: ***sample_collection_over_time_per_site***
+
+Code used for the visualization of number of samples collected monthly per wastewater collection site.  
+Figure generated corresponds to Figure_1b of the manuscript.  
+
+Outputs:  
+    - .png and .svg chart
+
+# 2. Method detection rates vs. target virus
 Folder: ***method_detection_vs_target_virus***
 
 Code used for the visualization of method positivity rate with target respiratory virus.  
@@ -40,7 +51,7 @@ Figure generated corresponds to Figure_2 of the manuscript.
 Outputs:\
     - .png and .svg chart
 
-# 2. Time-series charts of qPCR, sequencing and clinical outcomes per virus
+# 3. Time-series charts of qPCR, sequencing and clinical outcomes per virus
 Folder: ***time_series_charts***
 
 Code used to generate time-series charts highlighting the presence of viral sequencing reads and qPCR copies/ml of each respiratory virus in Texas over 4 years of sampling.  
@@ -51,7 +62,7 @@ Figures generated correspond to Figure 4 and Supp Figure 2 in the manuscript.
 Outputs:  
     - .png and .svg time-series plots showcasing sequencing RPKMF and qPCR copies/ml along with clinical ED rates per virus.
 
-# 3. qPCR positivity rate vs. genomic sequencing breadth
+# 4. qPCR positivity rate vs. genomic sequencing breadth
 Folder: ***qPCR_positivity_vs_genome_bin_charts***
 
 Code used to generate bar charts of qPCR positivity rate vs genomic span bin. Lander-Waterman assumptions were used to measure the genomic breadth of sequenced reads.   
@@ -61,7 +72,7 @@ Figures generated correspond to Figure 5 and Supp Figure 3 in the manuscript.
 Outputs:  
     - .png and .svg bar charts showcasing qPCR positivity among sequencing positive samples vs genomic bin size
 
-# 4. Identifying which method detected target virus first during start of respiratory illness season
+# 5. Identifying which method detected target virus first during start of respiratory illness season
 Folder: ***method_detected_sooner_charts***
 
 Code used to generate time-series plot of monthly sequencing and monthly qPCR positivity rates per virus.   
@@ -73,7 +84,7 @@ Outputs:
     - .png and .svg correlation scatter plots of monthly qPCR positivity rate vs sequencing positivity.  
     - .png and .svg dumbbell plots showcasing which of qPCR and sequencing detected target virus first that October.
 
-# 5. qPCR vs sequencing correlation scatter plots
+# 6. qPCR vs sequencing correlation scatter plots
 Folder: ***qPCR_vs_sequencing_scatter_charts***
 
 Code used to generate scatter plots of sequencing vs qPCR outcomes per target virus.  
