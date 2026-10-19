@@ -95,6 +95,7 @@ If using this codebase, please cite:
 Prakash, H et al. Four Years of Continuous Weekly Wastewater Analysis Reveals Sequencing as a Robust Alternative to PCR for Respiratory Virome Surveillance
 
 # Contact  
+**Please contact the authors via email for data access.**
 Authors: Justin R. Clark, Harihara Prakash   
 Lab: TAILΦR Labs, Baylor College of Medicine
 
